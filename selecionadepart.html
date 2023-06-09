@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Gestão de Patrimônios::</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/css/estilos.css">
+
+</head>
+
+<body>
+
+<div class="d-flex flex-column wrapper">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom shadow-sm mb-3">
+      <div class="container">
+          <a class="navbar-brand" href="/"><b>Gestão de Patrimônios</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse">
+              <ul class="navbar-nav flex-grow-1">
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="/index.html">Principal</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white" href="/contato.html">Contato</a>
+                  </li>
+              </ul>
+              <div class="align-self-end">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a href="/cadastro.html" class="nav-link text-white">Quero Me Cadastrar</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="/login.html" class="nav-link text-white">Entrar</a>
+                      </li>
+                      <li class="nav-item">
+                          <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                              title="5 patrimônio(s) na ocorrência"><small>5</small></span>
+                          <a href="/ocorrencia.html" class="nav-link text-white">
+                              <i class="bi-exclamation-circle" style="font-size:24px;line-height:24px;"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <hr mt-3>
+  <main class="flex-fill">
+    <h1>Selecione o Departamento do Funcionario</h1>
+                <h3 class="mb-4">
+                    Selecione o departamento e clique em <b>Continuar</b> para prosseguir para a <b>seleção da
+                        do Setor</b>.
+                </h3>
+                <div class="d-flex justify-content-around flex-wrap border rounded-top pt-4 px-3">
+                    <div class="mb-4 mx-2 flex-even">
+                        <input type="radio" class="btn-check" name="endereco" 
+                            autocomplete="off" id="end1">
+                        <label class="btn btn-outline-danger p-4 h-100 w-100" for="end1">
+                            <h3>
+                                <b class="text-dark">Departamento Financeiro</b><br>
+                                <hr>
+                                <b>Lorem ipsum dolor sit.</b><br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                                Lorem ipsum dolor sit.<br>
+                                Lorem, ipsum dolor.
+                            </h3>
+                        </label>
+                    </div>
+                    <div class="mb-4 mx-2 flex-even">
+                        <input type="radio" class="btn-check" name="endereco" 
+                            autocomplete="off" id="end2">
+                        <label class="btn btn-outline-danger p-4 h-100 w-100" for="end2">
+                            <h3>
+                                <b class="text-dark">Departamento T.I</b><br>
+                                <hr>
+                                <b>Lorem ipsum dolor sit amet consectetur.</b><br>
+                                Lorem ipsum dolor sit amet.<br>
+                                Lorem, ipsum dolor.<br>
+                                Lorem, ipsum.
+                            </h3>
+                        </label>
+                    </div>
+                    <div class="mb-4 mx-2 flex-even">
+                        <input type="radio" class="btn-check" name="endereco" 
+                            autocomplete="off" id="end3">
+                        <label class="btn btn-outline-danger p-4 h-100 w-100" for="end3">
+                            <h3>
+                                <b class="text-dark">Departamento de Administração</b><br>
+                                <hr>
+                                <b>Lorem ipsum dolor sit amet consectetur.</b><br>
+                                Lorem ipsum dolor sit amet.<br>
+                                Lorem, ipsum dolor.<br>
+                                Lorem, ipsum.
+                            </h3>
+                        </label>
+                    </div>
+                </div>
+                <div class="text-end border border-top-0 rounded-bottom p-4 pb-0">                    
+                    <a href="/fechamento_itens.html" class="btn btn-outline-success btn-lg mb-4">
+                        Voltar aos Itens
+                    </a>
+                    <a href="/selecionasetor.html" class="btn btn-danger btn-lg ms-2 mb-4">Continuar</a>
+                </div>
+            </div>
+  </main>
+
+
+  <footer class="border-top text-muted bg-light">
+    <div class="container">
+        <div class="row py-3">
+            <div class="col-12 col-md-4 text-center">
+                &copy; 2023 - Gestão de Patrimônio Ltda ME<br>
+                Rua Virtual Inexistente, 171, Compulândia/PC <br>
+                CPNJ 99.999.999/0001-99
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <a href="/privacidade.html" class="text-decoration-none text-dark">
+                    Política de Privacidade
+                </a><br>
+                <a href="/termos.html" class="text-decoration-none text-dark">
+                    Termos de Uso
+                </a><br>
+                <a href="/quemsomos.html" class="text-decoration-none text-dark">
+                    Quem Somos
+                </a><br>
+                <a href="/trocas.html" class="text-decoration-none text-dark">
+                    Trocas e Devoluções
+                </a>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <a href="/contato.html" class="text-decoration-none text-dark">
+                    Contato pelo Site
+                </a><br>
+                E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">
+                    email@dominio.com
+                </a><br>
+                Telefone: <a href="phone:28999990000" class="text-decoration-none text-dark">
+                    (99) 99999-0000
+                </a>
+            </div>
+        </div>
+    </div>
+  </footer>
+</div>
+
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

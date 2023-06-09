@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Gestão de Patrimônios::</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+
+</head>
+
+<body>
+
+    <div class="d-flex flex-column wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom shadow-sm mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/"><b>Gestão de Patrimônios</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/index.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/contato.html">Contato</a>
+                        </li>
+                    </ul>
+                    <div class="align-self-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/funcionario_pedidos.html" class="nav-link text-white"><b>Julli Kelly</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/login.html" class="nav-link text-white">Sair</a>
+                            </li>
+                            <li class="nav-item">
+                                <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
+                                    title="5 patrimônio(s) na ocorrência"><small>5</small></span>
+                                <a href="/ocorrencia.html" class="nav-link text-white">
+                                    <i class="bi-exclamation-circle" style="font-size:24px;line-height:24px;"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="flex-fill">
+            <div class="container">
+                <h1>Minha Conta</h1>
+                <div class="row gx-3">
+                    <div class="col-4">
+                        <div class="list-group">
+                            <a href="/chefe.html"
+                                class="list-group-item list-group-item-action">
+                                <i class="bi-person fs-6"></i> Dados Pessoais
+                            </a>
+                            <a href="/chefe_departamento.html" class="list-group-item list-group-item-action">
+                                <i class="bi-building fs-6"></i> Departamentos
+                            </a>
+                            <a href="/chefe_setor.html" class="list-group-item list-group-item-action bg-danger text-light">
+                                <i class="bi-building-fill fs-6"></i> Setores
+                            </a>
+                            <a href="/chefe_cargo.html" class="list-group-item list-group-item-action">
+                                <i class="bi-briefcase fs-6"></i> Cargos
+                            </a>
+                            <a href="/chefe_patrimonios.html" class="list-group-item list-group-item-action">
+                                <i class="bi-house-door fs-6"></i> Patrimonios
+                            </a>
+                            <a href="/chefe_funcionarios.html" class="list-group-item list-group-item-action">
+                                <i class="bi-person-lines-fill fs-6"></i>Funcionarios
+                            </a>
+                            <a href="/chefe_ocorrencias.html" class="list-group-item list-group-item-action">
+                                <i class="bi-exclamation-circle fs-6"></i> Ocorrencias
+                            </a>
+                            <a href="/chefe_senha.html" class="list-group-item list-group-item-action">
+                                <i class="bi-lock fs-6"></i> Alterar Senha
+                            </a>
+                            <a href="/index.html" class="list-group-item list-group-item-action">
+                                <i class="bi-door-open fs-6"></i> Sair
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <form action="">
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <select class="form-select form-select-sm">
+                                    <option>ID:20230001 - Segurança</option>
+                                    <option>ID:20230002 - Comercio</option>
+                                    <option>ID:20230003 - Advocacia</option>
+                                    <option>ID:20230004 - Saude</option>
+                                </select>
+                                <label>Selecione o Departamento</label>
+                            </div>  
+
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
+                                <label for="txtNome">Nome</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="text" id="txtDescricao" placeholder=" " autofocus />
+                                <label for="txtDescricao">Descrição</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="text" id="txtEmail" placeholder=" " />
+                                <label for="txtEmail">Email</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="number" id="numberTel" placeholder=" " />
+                                <label for="numberTel">Telefone</label>
+                            </div>
+                            <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <select class="form-select">
+                                    <option value="1">Ativo</option>
+                                    <option value="2">Inativo</option>
+                                </select>
+                            </div>
+                            <div class="form-floating md-1 col-md-3 col-xl-4">
+                                <a href="chefe_setor.html" class="btn btn-success mt-2 d-block">
+                                    Criar
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <hr mt-3>
+
+        <footer class="border-top text-muted bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        &copy; 2023 - Gestão de Patrimônio Ltda ME<br>
+                        Rua Virtual Inexistente, 171, Compulândia/PC <br>
+                        CPNJ 99.999.999/0001-99
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="/privacidade.html" class="text-decoration-none text-dark">
+                            Política de Privacidade
+                        </a><br>
+                        <a href="/termos.html" class="text-decoration-none text-dark">
+                            Termos de Uso
+                        </a><br>
+                        <a href="/quemsomos.html" class="text-decoration-none text-dark">
+                            Quem Somos
+                        </a><br>
+                        <a href="/trocas.html" class="text-decoration-none text-dark">
+                            Trocas e Devoluções
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <a href="/contato.html" class="text-decoration-none text-dark">
+                            Contato pelo Site
+                        </a><br>
+                        E-mail: <a href="mailto:email@dominio.com" class="text-decoration-none text-dark">
+                            email@dominio.com
+                        </a><br>
+                        Telefone: <a href="phone:28999990000" class="text-decoration-none text-dark">
+                            (99) 99999-0000
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
