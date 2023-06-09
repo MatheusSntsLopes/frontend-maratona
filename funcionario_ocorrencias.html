@@ -100,347 +100,427 @@
                     </a>
                 </div>
             </div>    
-                <div class="col-8">
-                    <form class="row mb-3">
-                        <div class="col-12 col-md-6 mb-3">
-                            <div class="form-floating">
-                                <select class="form-select">
-                                    <option value="30">Últimos 30 dias</option>
-                                    <option value="60">Últimos 60 dias</option>
-                                    <option value="90">Últimos 90 dias</option>
-                                    <option value="180">Últimos 180 dias</option>
-                                    <option value="360" selected>Últimos 360 dias</option>
-                                    <option value="9999">Todo o período</option>
-                                </select>
-                                <label>Período</label>
-                            </div>
+            <div class="col-8">
+                <form class="row mb-3">
+                    <div class="col-12 col-md-6 mb-3">
+                        <div class="form-floating">
+                            <select class="form-select">
+                                <option value="30">Últimos 30 dias</option>
+                                <option value="60">Últimos 60 dias</option>
+                                <option value="90">Últimos 90 dias</option>
+                                <option value="180">Últimos 180 dias</option>
+                                <option value="360" selected>Últimos 360 dias</option>
+                                <option value="9999">Todo o período</option>
+                            </select>
+                            <label>Período</label>
                         </div>
-                        <div class="col-12 col-md-6">
-                            <div class="form-floating">
-                                <select class="form-select">
-                                    <option value="1" selected>Mais novos primeiro</option>
-                                    <option value="2">Mais antigos primeiro</option>
-                                </select>
-                                <label>Ordenação</label>
-                            </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating">
+                            <select class="form-select">
+                                <option value="1" selected>Mais novos primeiro</option>
+                                <option value="2">Mais antigos primeiro</option>
+                            </select>
+                            <label>Ordenação</label>
                         </div>
-                    </form>
-                    <div class="accordion" id="divPedidos">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pedido000010">
-                                    <b>Ocorrencia 000010</b>
-                                    <span class="mx-1">(realizado em 11/10/2020)</span>
-                                </button>
-                            </h2>
-                            <div id="pedido000010" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
-                                <div class="accordion-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Patrimonio</th>
-                                                <th class="text-end">R$ Unit.</th>
-                                                <th class="text-center">Qtde.</th>
-                                                <th class="text-end">Subtotal</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Computador</td>
-                                                <td class="text-end">2000,99</td>
-                                                <td class="text-center">2</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quadro</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mesa</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
-                                                <td class="text-end">2666,91</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor do Conserto:</th>
-                                                <td class="text-end">7,50</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor a Pagar:</th>
-                                                <td class="text-end">3400,41</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Forma de Pagamento:</th>
-                                                <td class="text-end">Crédito VISA 1x</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pedido000009">
-                                    <b>Ocorrencia 000009</b>
-                                    <span class="mx-1">(realizado em 11/10/2020)</span>
-                                </button>
-                            </h2>
-                            <div id="pedido000009" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
-                                <div class="accordion-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Patrimonio</th>
-                                                <th class="text-end">R$ Unit.</th>
-                                                <th class="text-center">Qtde.</th>
-                                                <th class="text-end">Subtotal</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Computador</td>
-                                                <td class="text-end">2000,99</td>
-                                                <td class="text-center">2</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quadro</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mesa</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
-                                                <td class="text-end">26,91</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor do Conserto:</th>
-                                                <td class="text-end">7,50</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor a Pagar:</th>
-                                                <td class="text-end">3400,41</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Forma de Pagamento:</th>
-                                                <td class="text-end">Crédito VISA 1x</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pedido000008">
-                                    <b>Ocorrencia 000008</b>
-                                    <span class="mx-1">(realizado em 11/10/2020)</span>
-                                </button>
-                            </h2>
-                            <div id="pedido000008" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
-                                <div class="accordion-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Patrimonio</th>
-                                                <th class="text-end">R$ Unit.</th>
-                                                <th class="text-center">Qtde.</th>
-                                                <th class="text-end">Subtotal</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Computador</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quadro</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mesa</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
-                                                <td class="text-end">26,91</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor do Conserto:</th>
-                                                <td class="text-end">7,50</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor a Pagar:</th>
-                                                <td class="text-end">34,41</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Forma de Pagamento:</th>
-                                                <td class="text-end">Crédito VISA 1x</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pedido000007">
-                                    <b>Ocorrencia 000007</b>
-                                    <span class="mx-1">(realizado em 11/10/2020)</span>
-                                </button>
-                            </h2>
-                            <div id="pedido000007" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
-                                <div class="accordion-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Patrimonio</th>
-                                                <th class="text-end">R$ Unit.</th>
-                                                <th class="text-center">Qtde.</th>
-                                                <th class="text-end">Subtotal</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Computador</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quadro</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mesa</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
-                                                <td class="text-end">2623,91</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor do Conserto:</th>
-                                                <td class="text-end">7,50</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor a Pagar:</th>
-                                                <td class="text-end">3443,41</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Forma de Pagamento:</th>
-                                                <td class="text-end">Crédito VISA 1x</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#pedido000006">
-                                    <b>Ocorrencia 000006</b>
-                                    <span class="mx-1">(realizado em 11/10/2020)</span>
-                                </button>
-                            </h2>
-                            <div id="pedido000006" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
-                                <div class="accordion-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Patrimonio</th>
-                                                <th class="text-end">R$ Unit.</th>
-                                                <th class="text-center">Qtde.</th>
-                                                <th class="text-end">Subtotal</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Computador</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Quadro</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Mesa</td>
-                                                <td class="text-end">2,99</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-end">8,97</td>
-                                            </tr>
-                                        </tbody>
-                                        <tfoot>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor dos Produtos:</th>
-                                                <td class="text-end">2639,91</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor do Conserto:</th>
-                                                <td class="text-end">7,50</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Valor a Pagar:</th>
-                                                <td class="text-end">3423,41</td>
-                                            </tr>
-                                            <tr>
-                                                <th class="text-end" colspan="3">Forma de Pagamento:</th>
-                                                <td class="text-end">Crédito VISA 1x</td>
-                                            </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
+                    </div>
+                </form>
+                <div class="accordion" id="divPedidos">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pedido000010">
+                                <b>Ocorrencia 000010</b>
+                                <span class="mx-1">(realizado em 11/10/2020)</span>
+                            </button>
+                        </h2>
+                        <div id="pedido000010" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Patrimonio</th>
+                                            <th class="text-end">R$ Unit.</th>
+                                            <th class="text-center">Qtde.</th>
+                                            <th class="text-end">Subtotal</th>
+                                            <th class="text-end">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Computador</td>
+                                            <td class="text-end">2000,99</td>
+                                            <td class="text-center">2</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Resolvido</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadro</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Não Solucionado</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesa</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Pendente</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
+                                            <td class="text-end">2666,91</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor do Conserto:</th>
+                                            <td class="text-end">7,50</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor a Pagar:</th>
+                                            <td class="text-end">3400,41</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                                            <td class="text-end">Crédito VISA 1x</td>
+                                        </tr>
+                                        <tr>
+                                            <h4>Descrição</h4>
+                                            <h5>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                                                explicabo omnis
+                                                eligendi quidem optio, hic quae dolore earum recusandae tempora
+                                                sunt unde officiis
+                                                suscipit consequuntur eaque eum. Nisi, vel exercitationem?.
+
+                                                <br><br>
+                                            </h5>
+                                        </tr>
+                                    </tfoot>
+                                </table>
                             </div>
                         </div>
                     </div>
-                    <li class="list-group-item pt-3 pb-0">
-                        <div class="text-end">
-                            <a href="/setor.html" class="btn btn-danger btn-lg mb-3">
-                                Editar
-                            </a>
-                            <a href="/funcionario_criar_ocorrencia.html" class="btn btn-success btn-lg ms-2 mb-3">Adicionar</a>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pedido000009">
+                                <b>Ocorrencia 000009</b>
+                                <span class="mx-1">(realizado em 11/10/2020)</span>
+                            </button>
+                        </h2>
+                        <div id="pedido000009" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Patrimonio</th>
+                                            <th class="text-end">R$ Unit.</th>
+                                            <th class="text-center">Qtde.</th>
+                                            <th class="text-end">Subtotal</th>
+                                            <th class="text-end">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Computador</td>
+                                            <td class="text-end">2000,99</td>
+                                            <td class="text-center">2</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Pendente</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadro</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Não Resolvido</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesa</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Resolvido</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
+                                            <td class="text-end">26,91</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor do Conserto:</th>
+                                            <td class="text-end">7,50</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor a Pagar:</th>
+                                            <td class="text-end">3400,41</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                                            <td class="text-end">Crédito VISA 1x</td>
+                                        </tr>
+                                        <tr>
+                                            <h4>Descrição</h4>
+                                            <h5>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                                                explicabo omnis
+                                                eligendi quidem optio, hic quae dolore earum recusandae tempora
+                                                sunt unde officiis
+                                                suscipit consequuntur eaque eum. Nisi, vel exercitationem?.
+
+                                                <br><br>
+                                            </h5>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
                         </div>
-                    </li>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pedido000008">
+                                <b>Ocorrencia 000008</b>
+                                <span class="mx-1">(realizado em 11/10/2020)</span>
+                            </button>
+                        </h2>
+                        <div id="pedido000008" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Patrimonio</th>
+                                            <th class="text-end">R$ Unit.</th>
+                                            <th class="text-center">Qtde.</th>
+                                            <th class="text-end">Subtotal</th>
+                                            <th class="text-end">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Computador</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Nao Solucionado</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadro</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Pendente</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesa</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Resolvido</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
+                                            <td class="text-end">26,91</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor do Conserto:</th>
+                                            <td class="text-end">7,50</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor a Pagar:</th>
+                                            <td class="text-end">34,41</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                                            <td class="text-end">Crédito VISA 1x</td>
+                                        </tr>
+                                        <tr>
+                                            <h4>Descrição</h4>
+                                            <h5>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                                                explicabo omnis
+                                                eligendi quidem optio, hic quae dolore earum recusandae tempora
+                                                sunt unde officiis
+                                                suscipit consequuntur eaque eum. Nisi, vel exercitationem?.
+
+                                                <br><br>
+                                            </h5>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pedido000007">
+                                <b>Ocorrencia 000007</b>
+                                <span class="mx-1">(realizado em 11/10/2020)</span>
+                            </button>
+                        </h2>
+                        <div id="pedido000007" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Patrimonio</th>
+                                            <th class="text-end">R$ Unit.</th>
+                                            <th class="text-center">Qtde.</th>
+                                            <th class="text-end">Subtotal</th>
+                                            <th class="text-end">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Computador</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Resolvido</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadro</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Pendente</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesa</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Não Solucionado</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor dos Patrimonios:</th>
+                                            <td class="text-end">2623,91</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor do Conserto:</th>
+                                            <td class="text-end">7,50</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor a Pagar:</th>
+                                            <td class="text-end">3443,41</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                                            <td class="text-end">Crédito VISA 1x</td>
+                                        </tr>
+                                        <tr>
+                                            <h4>Descrição</h4>
+                                            <h5>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                                                explicabo omnis
+                                                eligendi quidem optio, hic quae dolore earum recusandae tempora
+                                                sunt unde officiis
+                                                suscipit consequuntur eaque eum. Nisi, vel exercitationem?.
+
+                                                <br><br>
+                                            </h5>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pedido000006">
+                                <b>Ocorrencia 000006</b>
+                                <span class="mx-1">(realizado em 11/10/2020)</span>
+                            </button>
+                        </h2>
+                        <div id="pedido000006" class="accordion-collapse collapse" data-bs-parent="#divPedidos">
+                            <div class="accordion-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Patrimonio</th>
+                                            <th class="text-end">R$ Unit.</th>
+                                            <th class="text-center">Qtde.</th>
+                                            <th class="text-end">Subtotal</th>
+                                            <th class="text-end">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Computador</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Pendente</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quadro</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Não Solucionado</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mesa</td>
+                                            <td class="text-end">2,99</td>
+                                            <td class="text-center">3</td>
+                                            <td class="text-end">8,97</td>
+                                            <td class="text-end">Resolvido</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor dos Produtos:</th>
+                                            <td class="text-end">2639,91</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor do Conserto:</th>
+                                            <td class="text-end">7,50</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Valor a Pagar:</th>
+                                            <td class="text-end">3423,41</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="text-end" colspan="3">Forma de Pagamento:</th>
+                                            <td class="text-end">Crédito VISA 1x</td>
+                                        </tr>
+                                        <tr>
+                                            <h4>Descrição</h4>
+                                            <h5>
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                                                explicabo omnis
+                                                eligendi quidem optio, hic quae dolore earum recusandae tempora
+                                                sunt unde officiis
+                                                suscipit consequuntur eaque eum. Nisi, vel exercitationem?.
+
+                                                <br><br>
+                                            </h5>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <li class="list-group-item pt-3 pb-0">
+                    <div class="text-end">
+                        <a href="/setor.html" class="btn btn-danger btn-lg mb-3">
+                            Editar
+                        </a>
+                        <a href="/funcionario_criar_ocorrencia.html" class="btn btn-success btn-lg ms-2 mb-3">Adicionar</a>
+                    </div>
+                </li>
+            </div>
             </div>
         </div>
     </div>
