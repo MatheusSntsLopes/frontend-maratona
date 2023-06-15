@@ -7,7 +7,7 @@ body {
 }
 
 nav:hover{
-color: #dc0016;
+color: #f5f5f5;
 }
 
 p.truncar-3l {
@@ -56,4 +56,8 @@ label .text-dark {
 
 fieldset.row .form-floating>label {
     margin-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+td{
+    word-break:break-all
 }

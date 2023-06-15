@@ -74,8 +74,7 @@
                 <div class="row gx-3">
                     <div class="col-4">
                         <div class="list-group">
-                            <a href="/chefe.html"
-                                class="list-group-item list-group-item-action">
+                            <a href="/chefe.html" class="list-group-item list-group-item-action">
                                 <i class="bi-person fs-6"></i> Dados Pessoais
                             </a>
                             <a href="/chefe_departamento.html" class="list-group-item list-group-item-action">
@@ -90,7 +89,8 @@
                             <a href="/chefe_patrimonios.html" class="list-group-item list-group-item-action">
                                 <i class="bi-house-door fs-6"></i> Patrimonios
                             </a>
-                            <a href="/chefe_funcionarios.html" class="list-group-item list-group-item-action bg-danger text-light">
+                            <a href="/chefe_funcionarios.html"
+                                class="list-group-item list-group-item-action bg-danger text-light">
                                 <i class="bi-person-lines-fill fs-6"></i>Funcionarios
                             </a>
                             <a href="/chefe_ocorrencias.html" class="list-group-item list-group-item-action">
@@ -104,235 +104,230 @@
                             </a>
                         </div>
                     </div>
-                        <div class="col-8">
-                            <form class="row mb-3">
-                                <div class="col-12 col-md-6 mb-3">
-                                    <div class="form-floating">
-                                        <select class="form-select">
-                                            <option value="30">Comercio</option>
-                                            <option value="60">Segurança</option>
-                                            <option value="90">T.I</option>
-                                            <option value="180">Contabilidade</option>
-                                            <option value="360" selected>Saude</option>
-                                            <option value="9999">Todos os Departamentos</option>
-                                        </select>
-                                        <label>Departamento</label>
-                                    </div>
+                    <div class="col-8">
+                        <form class="row mb-3">
+                            <div class="col-12 col-md-6 mb-3">
+                                <div class="form-floating">
+                                    <select class="form-select">
+                                        <option value="30">Comercio</option>
+                                        <option value="60">Segurança</option>
+                                        <option value="90">T.I</option>
+                                        <option value="180">Contabilidade</option>
+                                        <option value="360" selected>Saude</option>
+                                        <option value="9999">Todos os Departamentos</option>
+                                    </select>
+                                    <label>Departamento</label>
                                 </div>
-                                <div class="col-12 col-md-6">
-                                    <div class="form-floating">
-                                        <select class="form-select">
-                                            <option value="1" selected>Finança</option>
-                                            <option value="2">Administração</option>
-                                            <option value="3">Contabilidade</option>
-                                            <option value="4">Lab.Pesquisa</option>
-                                        </select>
-                                        <label>Setor</label>
-                                    </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-floating">
+                                    <select class="form-select">
+                                        <option value="1" selected>Finança</option>
+                                        <option value="2">Administração</option>
+                                        <option value="3">Contabilidade</option>
+                                        <option value="4">Lab.Pesquisa</option>
+                                    </select>
+                                    <label>Setor</label>
                                 </div>
-                            </form>
-                            <div class="accordion" id="divPedidos">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#func1" style="gap:20px">
-                                            <b>Christiano Santos</b>
-                                            <b>ID: #843874375</b>
-                                            <span class="mx-1">(Criado em 11/10/2020)</span>
-                                        </button>
-                                    </h2>
-                                    <div id="func1" class="accordion-collapse collapse"
-                                        data-bs-parent="#divDepart">
-                                        <div class="accordion-body">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Email</th>
-                                                        <th class="text-center">CPF</th>
-                                                        <th class="text-center">Telefone</th>
-                                                        <th class="text-center">Setor</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>setorFinanca@email.com</td>
-                                                        <td class="text-end">999.999.999-11</td>
-                                                        <td class="text-center">(99) 9999-9999</td>
-                                                        <td class="text-center">Comercio</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                  <tr> 
+                            </div>
+                        </form>
+                        <div class="accordion" id="divPedidos">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#func1" style="gap:20px">
+                                        <b>Christiano Santos</b>
+                                        <b>ID:#843874375</b>
+                                        <span class="mx-1">(Criado em 11/10/2020)</span>
+                                    </button>
+                                </h2>
+                                <div id="func1" class="accordion-collapse collapse" data-bs-parent="#divDepart">
+                                    <div class="accordion-body ">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Email</th>
+                                                    <th class="text-center">CPF</th>
+                                                    <th class="text-center">Telefone</th>
+                                                    <th class="text-center">Setor</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>setorFinanca@email.com</td>
+                                                    <td class="text-end">999.999.999-11</td>
+                                                    <td class="text-center">(99) 9999-9999</td>
+                                                    <td class="text-center">Comercio</td>
+                                               </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
                                                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                                         <div class="card text-center bg-light">
                                                             <img src="/img/patrimonios/fun1.jpg" class="card-img-top">
-                                                          </div>
+                                                        </div>
+                                                        <th class="text-end" colspan="2">Ocorrências feitas:</th>
+                                                        <td class="text-center">261</td>
                                                     </div>
-                                                  </tr>  
-                                                  <tr>
-                                                    <th class="text-end" colspan="3">Ocorrências feitas:</th>
-                                                    <td class="text-center">261</td>
-                                                </tr>  
-                                                </tfoot>
-                                            </table>
-                                        </div>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion" id="divPedidos">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#func2" style="gap:20px">
-                                            <b>Julli Kelly</b>
-                                            <b>ID: #843874375</b>
-                                            <span class="mx-1">(Criado em 11/10/2020)</span>
-                                        </button>
-                                    </h2>
-                                    <div id="func2" class="accordion-collapse collapse"
-                                        data-bs-parent="#divDepart">
-                                        <div class="accordion-body">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Email</th>
-                                                        <th class="text-center">CPF</th>
-                                                        <th class="text-center">Telefone</th>
-                                                        <th class="text-center">Setor</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>setorFinanca@email.com</td>
-                                                        <td class="text-end">999.999.999-11</td>
-                                                        <td class="text-center">(99) 9999-9999</td>
-                                                        <td class="text-center">Comercio</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                  <tr> 
+                        </div>
+                        <div class="accordion" id="divPedidos">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#func2" style="gap:20px">
+                                        <b>Julli Kelly</b>
+                                        <b>ID: #843874375</b>
+                                        <span class="mx-1">(Criado em 11/10/2020)</span>
+                                    </button>
+                                </h2>
+                                <div id="func2" class="accordion-collapse collapse" data-bs-parent="#divDepart">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Email</th>
+                                                    <th class="text-center">CPF</th>
+                                                    <th class="text-center">Telefone</th>
+                                                    <th class="text-center">Setor</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>setorFinanca@email.com</td>
+                                                    <td class="text-end">999.999.999-11</td>
+                                                    <td class="text-center">(99) 9999-9999</td>
+                                                    <td class="text-center">Comercio</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
                                                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                                         <div class="card text-center bg-light">
                                                             <img src="/img/patrimonios/fun2.enc" class="card-img-top">
-                                                          </div>
+                                                        </div>
                                                     </div>
-                                                  </tr>  
-                                                  <tr>
+                                                </tr>
+                                                <tr>
                                                     <th class="text-end" colspan="3">Ocorrências feitas:</th>
                                                     <td class="text-center">261</td>
-                                                </tr>  
-                                                </tfoot>
-                                            </table>
-                                        </div>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion" id="divPedidos">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#func3" style="gap:20px">
-                                            <b>Marcio Melo</b>
-                                            <b>ID: #843874375</b>
-                                            <span class="mx-1">(Criado em 11/10/2020)</span>
-                                        </button>
-                                    </h2>
-                                    <div id="func3" class="accordion-collapse collapse"
-                                        data-bs-parent="#divDepart">
-                                        <div class="accordion-body">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Email</th>
-                                                        <th class="text-center">CPF</th>
-                                                        <th class="text-center">Telefone</th>
-                                                        <th class="text-center">Setor</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>setorFinanca@email.com</td>
-                                                        <td class="text-end">999.999.999-11</td>
-                                                        <td class="text-center">(99) 9999-9999</td>
-                                                        <td class="text-center">Comercio</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                  <tr> 
+                        </div>
+                        <div class="accordion" id="divPedidos">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#func3" style="gap:20px">
+                                        <b>Marcio Melo</b>
+                                        <b>ID: #843874375</b>
+                                        <span class="mx-1">(Criado em 11/10/2020)</span>
+                                    </button>
+                                </h2>
+                                <div id="func3" class="accordion-collapse collapse" data-bs-parent="#divDepart">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Email</th>
+                                                    <th class="text-center">CPF</th>
+                                                    <th class="text-center">Telefone</th>
+                                                    <th class="text-center">Setor</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>setorFinanca@email.com</td>
+                                                    <td class="text-end">999.999.999-11</td>
+                                                    <td class="text-center">(99) 9999-9999</td>
+                                                    <td class="text-center">Comercio</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
                                                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                                         <div class="card text-center bg-light">
                                                             <img src="/img/patrimonios/fun3.jpg" class="card-img-top">
-                                                          </div>
+                                                        </div>
                                                     </div>
-                                                  </tr>  
-                                                  <tr>
+                                                </tr>
+                                                <tr>
                                                     <th class="text-end" colspan="3">Ocorrências feitas:</th>
                                                     <td class="text-center">261</td>
-                                                </tr>  
-                                                </tfoot>
-                                            </table>
-                                        </div>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion" id="divPedidos">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#func4" style="gap:20px">
-                                            <b>Diego Silveira</b>
-                                            <b>ID: #843874375</b>
-                                            <span class="mx-1">(Criado em 11/10/2020)</span>
-                                        </button>
-                                    </h2>
-                                    <div id="func4" class="accordion-collapse collapse"
-                                        data-bs-parent="#divDepart">
-                                        <div class="accordion-body">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Email</th>
-                                                        <th class="text-center">CPF</th>
-                                                        <th class="text-center">Telefone</th>
-                                                        <th class="text-center">Setor</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>setorFinanca@email.com</td>
-                                                        <td class="text-end">999.999.999-11</td>
-                                                        <td class="text-center">(99) 9999-9999</td>
-                                                        <td class="text-center">Comercio</td>
-                                                    </tr>
-                                                </tbody>
-                                                <tfoot>
-                                                  <tr> 
+                        </div>
+                        <div class="accordion" id="divPedidos">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#func4" style="gap:20px">
+                                        <b>Diego Silveira</b>
+                                        <b>ID: #843874375</b>
+                                        <span class="mx-1">(Criado em 11/10/2020)</span>
+                                    </button>
+                                </h2>
+                                <div id="func4" class="accordion-collapse collapse" data-bs-parent="#divDepart">
+                                    <div class="accordion-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Email</th>
+                                                    <th class="text-center">CPF</th>
+                                                    <th class="text-center">Telefone</th>
+                                                    <th class="text-center">Setor</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>setorFinanca@email.com</td>
+                                                    <td class="text-end">999.999.999-11</td>
+                                                    <td class="text-center">(99) 9999-9999</td>
+                                                    <td class="text-center">Comercio</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
                                                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                                                         <div class="card text-center bg-light">
                                                             <img src="/img/patrimonios/fun4.jpg" class="card-img-top">
-                                                          </div>
+                                                        </div>
                                                     </div>
-                                                  </tr>  
-                                                  <tr>
+                                                </tr>
+                                                <tr>
                                                     <th class="text-end" colspan="3">Ocorrências feitas:</th>
                                                     <td class="text-center">261</td>
-                                                </tr>  
-                                                </tfoot>
-                                            </table>
-                                        </div>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
-    
-                            <li class="list-group-item pt-3 pb-0">
-                                <div class="text-end">
-                                    <a href="/chefe_criar_funcionario.html" class="btn btn-danger btn-lg mb-3">
-                                        Excluir
-                                    </a>
-                                    <a href="/chefe_criar_funcionario.html" class="btn btn-success btn-lg ms-2 mb-3">Adicionar</a>
-                                </div>
-                            </li>            
-                      </div>
+                        </div>
+
+                        <li class="list-group-item pt-3 pb-0">
+                            <div class="text-end">
+                                <a href="/chefe_criar_funcionario.html" class="btn btn-danger btn-lg mb-3">
+                                    Excluir
+                                </a>
+                                <a href="/chefe_criar_funcionario.html"
+                                    class="btn btn-success btn-lg ms-2 mb-3">Adicionar</a>
+                            </div>
+                        </li>
+                    </div>
                 </div>
             </div>
         </main>
